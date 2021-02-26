@@ -12,7 +12,7 @@ export const Footer = () => {
                 <p className="footer-parrafos">
                   Crea tus propias aplicaciones
                   en la nube de forma autónoma,
-                  sin la necesidad de conocimientos tecnicos.
+                  sin la necesidad de conocimientos técnicos.
                 </p>
                 <p>
                   <ol className="footer-listas">
@@ -30,7 +30,7 @@ export const Footer = () => {
                     <li>Templates</li>
                     <li>Pricing</li>
                     <li>FAQ</li>
-                    <li>Terminos de uso</li>
+                    <li>Términos de uso</li>
                     <li>Politica de privacidad</li>
                   </ol>
               </div>
