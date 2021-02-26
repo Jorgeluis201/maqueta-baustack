@@ -41,9 +41,9 @@ export const Footer = () => {
                   </p>
                 </div>
                 <div>
-                  <i class="fab fa-facebook fa-4x text-warning"></i>
-                  <i class="fab fa-instagram-square fa-4x text-info"></i>
-                  <i class="fab fa-linkedin fa-4x "></i>
+                  <i className="fab fa-facebook fa-4x text-warning"></i>
+                  <i className="fab fa-instagram-square fa-4x text-info"></i>
+                  <i className="fab fa-linkedin fa-4x "></i>
                 </div>
 
               </div>  

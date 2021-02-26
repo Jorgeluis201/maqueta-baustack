@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { Footer } from './Footer';
-import { Portada } from './Portada';
-
 // Estilos
-import '../style/index.css';
-import { NavBar } from './Navbar/NavBar';
+import './style/index.css'
+
+//Components
+import { Footer } from './components/Footer';
+import { NavBar } from './components/Navbar/NavBar';
+import { Portada } from './components/Portada';
 
 export const AppBausTack = () => {
     return (
