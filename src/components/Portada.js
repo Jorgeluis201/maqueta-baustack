@@ -112,7 +112,7 @@ export const Portada = () => {
                             <input
                                 className="input-contactos"
                                 type="text"
-                                placeholder="Telefono"
+                                placeholder="Teléfono"
                                 name="telefono"
                                 id="telefono"
                                 autoComplete="telefono"
