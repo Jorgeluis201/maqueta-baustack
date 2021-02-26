@@ -8,11 +8,12 @@ export const NavBar = () => {
     return (
         <>
         <header className="nav_bar__header">
-            <div className="nav_bar__encabezado"> 
-              
-              <img className="nav_bar__logo_baustack" src={Logo_BausTack} alt='Logo BausTack'/>
+            <div className="nav_bar__encabezado row"> 
+                <div className="col-md-4">
+                    <img className="nav_bar__logo_baustack" src={Logo_BausTack} alt='Logo BausTack'/>
+                </div>
                 
-                <div className="nav_bar__botones">
+                <div className="nav_bar__botones col-md-4">
                     <button 
                         className="nav_bar__btn_invisible"
                     > 
