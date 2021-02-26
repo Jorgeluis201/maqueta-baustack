@@ -1,0 +1,80 @@
+.portada__informacion{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portada__logo_portada{
+    width: 600px;
+    height: 400px;
+}
+
+.portada__titulo_portada{
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.portada__contenedor_info{
+    margin-right:50px;
+}
+
+.portada__informacion p{
+    color: #c0bfc0;
+} 
+
+.btn-portada{
+    width: 200px;
+    height: 50px;
+}
+
+.portada__info2{
+    font-weight: bold;
+    color:#7e3c97;
+    font-size: 40px;
+    justify-content: center i !important;
+    text-align: center;
+}
+
+.portada__capsula_video{
+    margin-bottom: 100px;
+}
+
+.portada__video{
+    justify-content: center i !important;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.portada__formulario_contactos{
+    margin-top:100px;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    height: 400px;
+    margin:auto;
+}
+
+.input-contactos{
+    border-radius: 10px;
+    height: 60px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px #999;
+    border-color: none;
+    border:none;
+}
+
+.btn-formulario{
+    width: 100%;
+    height: 50px;
+}
+
+

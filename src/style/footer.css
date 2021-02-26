@@ -1,0 +1,41 @@
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.pie-footer{
+    width: 100%;
+    height: auto;
+}
+
+.titulo-footer{
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+
+.contacto{
+    margin-top:35px;
+    font-weight: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__titulos{
+    font-weight: bold;
+    color:#7e3c97;   
+}
+
+.footer-listas{
+    list-style: none;
+}
+
+.footer-parrafos{
+    color:#8d8a8dcb;
+}
+
+.img-logo{
+    margin-bottom: 10px;
+}
+
