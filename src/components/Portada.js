@@ -59,19 +59,24 @@ export const Portada = () => {
     return (
         <>
           <div clasName="portada__container">
-                <div className='portada__informacion '>
-                    <div className="portada__contenedor_info ">
-                        <h1 className="portada__titulo_portada" >Una sola fuente de información</h1>
-                        <p>Aprovecha las ventajas de trabajar en una base de datos, con la simpleza de una planilla de Excell</p>
-                        
-                        <button 
-                            className="nav_bar__btn_visible btn-portada"
-                        > 
-                        Empezar ahora
-                        </button>
-                    </div>
+
+                <div className='portada__informacion row'>
                     
-                        <img className='portada__logo_portada' src={logo_portada} alt='Familia'/>
+                        <div className="portada__contenedor_info col-md-6">
+                            <h1 className="portada__titulo_portada" >Una sola fuente de información</h1>
+                            <p>Aprovecha las ventajas de trabajar en una base de datos, con la simpleza de una planilla de Excell</p>
+                            
+                            <button 
+                                className="nav_bar__btn_visible btn-portada"
+                            > 
+                            Empezar ahora
+                            </button>
+                        </div>
+                        <div className="col-md-4">
+                            <img className='portada__logo_portada' src={logo_portada} alt='Familia'/>
+                        </div>
+                       
+                    
                     
                     
                 </div>
